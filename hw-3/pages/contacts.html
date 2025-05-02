@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакти DailyZen</title>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+<body>
+    <h1 class="title-text">Сайт <i class="italy-text">DailyZen</i> — простір для щоденного натхнення</h1>
+
+    <div class="menu-block">
+        <a class="menu-btn" href="../index.html">На головну</a> <br>
+        <a class="menu-btn" href="about.html">Про сторінку</a> <br>
+        <a class="menu-btn" href="gallery.html">Галерея</a>
+        <a class="menu-btn" href="articles.html">Статті</a><br>
+    </div>
+
+    <div class="contact-container">
+        <h3 class="contact-title">Контакти</h3>
+        <span class="contact-text">Зв'яжіться з нами — ми завжди раді почути від вас!</span>
+
+        <p class="contact-paragraph">Електронна пошта: hello@dailyzen.com</p>
+        <p class="contact-paragraph">Instagram: <a href="https://www.instagram.com/" target="_blank">@dailyzen.ua</a></p>
+        <p class="contact-paragraph">Facebook: <a href="https://www.facebook.com/" target="_blank">DailyZen</a></p>
+    </div>
+    <!-- <h5>Питання чи співпраця? Заповніть нашу форму:</h5> -->
+
+    <form class="contact-form">
+        <fieldset>
+            <h5 class="contact-form-title">Питання чи співпраця? Заповніть нашу форму:</h5>
+            <label class="form-label" for="name">Ваше ім'я</label>
+            <input class="input-label" type="text" name="name" id="name">
+    
+            <label class="form-label" for="email">Електронна пошта</label>
+            <input class="input-label" type="email" name="email" id="email">
+
+            <label class="form-label" for="message">Текст:</label>
+            <textarea name="message" id="message" rows="2" cols="55" ></textarea>
+
+            <label class="form-label" for="years">Вам є 18?</label>
+            <select name="years" id="years">
+                <option value="yes">Так</option>
+                <option value="no">Ні</option>
+            </select>
+        
+            <input class="input-label" type="checkbox" name="subscribe" value="yes">
+            Підписатись на новини
+            <input class="input-label" type="checkbox" name="subscribe-email" value="yes">
+            Підписатись на емейл розсилку
+            
+            <input class="input-label" type="submit" value="Надіслати">
+        </fieldset>
+    </form>
+</body>
+</html>

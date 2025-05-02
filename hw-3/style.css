@@ -1,0 +1,147 @@
+*{
+    background-color: bisque;
+}
+
+.title-text{
+    color: brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
+
+.italy-text{
+    color: slateblue;
+}
+
+.menu-block{
+    padding: 1em 0 2em 0;
+    text-align: center;
+    background-color: blanchedalmond;
+}
+
+.menu-btn{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: green;
+    font-size: 1rem;
+    text-decoration: none;
+    background-color: blanchedalmond;
+}
+
+.info-block{
+    width: 100%;
+    text-align: center;
+    padding: 4vw 0 0 0;
+}
+
+p{
+    color: #560a6d;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    margin-bottom: 6rem;
+}
+
+/* Сторінка Cтатті  */
+
+.articles-title{
+text-align: center;
+margin: 40px 0;
+}
+
+.articles-link{
+margin-left: 20px;
+text-decoration: none;
+color: #463208;
+
+}
+
+.articles-block{
+    width: 100%;
+}
+
+.articles-container{
+padding-bottom: 2vh;
+}
+
+.title-articles{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.articles-paragraph{
+    margin: 0;
+}
+
+ul{
+    list-style-type: square;
+    list-style-position: inside;
+    padding-top: 10px;
+}
+
+li{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: slateblue;
+}
+
+/* Сторінка Галерея */
+
+.gallety-title{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+}
+
+.gallery-img{
+ width: 35em;
+ height: auto;
+}
+
+/* Сторінка Контакти */
+
+.contact-container{
+ text-align: center;
+}
+
+.contact-title{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+}
+
+.contact-text{
+    color: brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+}
+
+.contact-paragraph{
+ margin: 10px;
+}
+
+.contact-form{
+ text-align: center;
+ color: rgb(13, 138, 131);
+}
+
+.contact-form-title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+
+.form-label{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.input-label{
+border-radius: 30% 10%;
+padding: 10px;
+margin:20px;
+}
+
+textarea{
+    width: 30vw;
+    height: 5vh;
+}
+
+select{
+    color: green;
+}
