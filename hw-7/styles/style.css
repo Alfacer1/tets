@@ -1,0 +1,134 @@
+*{
+    background-color: rgb(175, 207, 58);
+    font-size: 21px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.block-footer{
+position: fixed;
+margin-left: 600px;
+    width: 400px;
+    height: 140px;
+    border: 2px red solid;
+    z-index: 10;
+}
+
+div{
+    margin: 0 0 50px 0 ;
+    display: block;
+}
+
+.block{
+    box-sizing: content-box;
+    width: 400px;
+    height: 140px;
+    border: 2px red solid;
+}
+
+.container{
+    position: relative;
+    float: right;
+    box-sizing: border-box;
+    width: 500px;
+    height: 210px;
+    border: 2px rgb(0, 0, 0) solid;
+}
+
+p{
+    color: rgb(62, 92, 13);
+}
+
+.block-text{
+    color: blue;
+}
+
+#text-id{
+    color: brown;
+}
+
+a:hover{
+    color: tomato;
+    font-size: 22px;
+}
+
+a[href$=".com"]{
+  color: rgb(2, 112, 29);
+}
+
+a[href$=".com"]:hover{
+    color: rgba(28, 13, 80, 0.719);
+  }
+
+div > .span-test{
+    color: fuchsia;
+}
+
+p ~ .span-test{
+    color: chocolate;
+}
+
+
+div .container-list{
+    color: violet;
+}
+
+.link:before{
+    content: 'before ';
+}
+
+#link-id::after{
+    content: ' after';
+}
+
+ul > .list-test::first-letter{
+    color: blue;
+    font-size: 22px;
+}
+
+.input-text{
+    border: 1px red solid;
+}
+
+.input-text:hover{
+    border: 2px rgb(224, 219, 228) dotted;
+}
+
+
+.block-1{
+ width: 200px;
+ height: 200px;
+ background-color: rgb(37, 50, 230);
+}
+
+.text-1{
+
+}
+
+.block-2{
+ display: block;
+ width: 200px;
+ height: 200px;
+ background-color: rgb(37, 50, 230);
+ border: 10px rebeccapurple solid;
+}
+
+.block-2-1{
+    width: 200px;
+    height: 200px;
+    
+}
+
+.title-2-1{
+    background-color: darkcyan;
+}
+
+.block-2-2{
+    width: 200px;
+    height: 200px;
+    overflow: auto;
+    
+}
+
+.text-2-2{
+
+}
